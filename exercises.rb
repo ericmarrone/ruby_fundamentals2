@@ -41,6 +41,7 @@ p is_even?(32)
 puts "-" * 30
 
 #EXERCISE 4
+
 def length_greater_than_8?(my_string)
   if my_string.length < 8
     return false
@@ -54,4 +55,13 @@ p length_greater_than_8?("food")
 
 puts "-" * 30
 
-#EXERCISE 3
+#EXERCISE 5
+
+def greet_backwards(name)
+  return "Hello #{name.reverse}#{name.reverse}! Welcome home."
+end
+
+puts(greet_backwards("Bob"))
+puts(greet_backwards("Shirly"))
+puts(greet_backwards("Sue"))
+puts(greet_backwards("Andy"))
